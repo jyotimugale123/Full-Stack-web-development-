@@ -1,0 +1,10 @@
+bootstrap--couroser
+js-slider
+1rem==16px
+translateX with Positive value==right
+*)Arrange elemt in the left order formate
+position absulute
+
+`` used to apropriate == 2
+set time interval...it desplay perticular element for a perticular time(setInterval)
+visibl

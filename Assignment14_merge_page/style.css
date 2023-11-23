@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main-div{
+    width: 100%;
+    height: 550px;
+    border: rgb(53, 49, 49);
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+}
+.main-div .first-div,
+.main-div .second-div{
+    height: 450px;
+    flex:1;
+    border: 3px solid rgb(39, 35, 35);
+    text-align: center;
+    
+}
+
+.main-div .first-div{
+    background: linear-gradient(210deg,orange, #27d0ee, white,orange);
+    flex: 1;
+    padding:15% 5%;
+}
+.main-div .second-div{
+    display: flex;
+    flex-direction: column;
+}
+.main-div .second-div .second-sub1{
+    height: 50%;
+    background: linear-gradient(210deg,#3ed1eb,white);
+    padding:15%;
+}
+.main-div .second-div .second-sub2{
+    height: 50%;
+    background: linear-gradient(210deg,orange, white);
+    padding:15%;
+
+}
